@@ -1,0 +1,75 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+html {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+video {
+  position: relative;
+  border: 2px solid rgba(0,189,57,1);
+  border-radius: 10px;
+  top: 10px;
+}
+
+button {
+  border-radius: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  background: #0093b8;
+  border: none;
+  height: 35px;
+  width: 150px;
+  font-size: larger;
+}
+
+button:hover {
+  background-color: #007592;
+}
+
+.videos {
+  position: absolute;
+  display: inline-flex;
+  left: 25%;
+}
+
+header {
+  position: relative;
+}
+
+img {
+  position: relative;
+  height: 100px;
+}
+
+#copyButton {
+  background-color: transparent;
+  width: 35px;
+  color: black;
+}
+
+#callInput {
+  background-color: white;
+  border: 2px solid gray;
+  height: 30px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: large;
+}
+
+#answerButton {
+  background: rgba(0,189,57,1);
+
+}
+
+#answerButton:hover {
+  background-color: rgb(0, 145, 43);
+}

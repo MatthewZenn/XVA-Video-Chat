@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Chat</title>
+  </head>
+  <body>
+    <header>
+      <img src="logo.png" alt="">
+    </header>
+    <br>
+    <br>
+    <br>
+    <div class="videos">
+      <span>
+        <h3>Host</h3>
+        <video id="webcamVideo" autoplay playsinline></video>
+      </span>
+      <span>
+        <h3>Remote</h3>
+        <video id="remoteVideo" autoplay playsinline></video>
+      </span>
+    </div>
+    <button id="webcamButton">Start Video</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>New Call</h2>
+    <button id="callButton" disbaled>Call</button>
+    <br>
+    <br>
+    <br>
+    <h2>Join Call</h2>
+    <input id="callInput"/>
+    <button id="copyButton"><i class="far fa-copy"></i></button>
+    <button id="answerButton">Join</button>
+    <button id="hangupButton" style="display:none">End Call</button>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
